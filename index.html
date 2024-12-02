@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Cartas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Juego de Cartas</h1>
+    <div id="players">
+      <div class="player" id="player1">
+        <h2>Jugador 1</h2>
+        <div class="card" id="card1">Sin carta</div>
+        <p>Puntaje: <span id="score1">0</span></p>
+      </div>
+      <div class="player" id="player2">
+        <h2>Jugador 2</h2>
+        <div class="card" id="card2">Sin carta</div>
+        <p>Puntaje: <span id="score2">0</span></p>
+      </div>
+    </div>
+    <div id="controls">
+      <button id="drawCard">Sacar carta</button>
+      <p id="winnerMessage">¡Empieza el juego!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
